@@ -100,18 +100,25 @@ const App = () => {
 
             {/* New Card Under Balance */}
             <div className="card2 new-card">
-              <div class="social-icons">
-                <a href="https://www.youtube.com" target="_blank">
-                  <i class="fab fa-youtube"></i>
-                </a>
-                <a href="https://twitter.com" target="_blank">
-                  <i class="fab fa-twitter"></i>
-                </a>
-                <a href="https://www.facebook.com" target="_blank">
-                  <i class="fab fa-facebook-f"></i>
-                </a>
+              <div className="border-layer">
+                <div className="social-icons">
+                  <a href="https://www.youtube.com" target="_blank">
+                    <i style={{ color: 'pink' }} className="fab fa-youtube"></i>
+                  </a>
+                  <a href="https://twitter.com" target="_blank">
+                    <i style={{ color: 'pink' }} className="fab fa-twitter"></i>
+                  </a>
+                  <a href="https://www.facebook.com" target="_blank">
+                    <i style={{
+                      color: 'pink',
+                      border: '3px solid pink',
+                      borderRadius: '60px',
+padding: '5px',     }} className="fab fa-facebook-f"></i>
+                  </a>
+                </div>
               </div>
             </div>
+
           </div>
 
         </div>

@@ -130,7 +130,7 @@
 .the-card{
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 15px;
 }
 .cards {
   display: flex;
@@ -138,7 +138,7 @@
 }
 .card2{
   background-color: #f085a9;
-  padding: 15px;
+  padding: 10px;
   border-radius: 10px;
   height: 15%;
 }
@@ -147,7 +147,10 @@
   background-color: #499ecf;
   padding: 20px;
   border-radius: 10px;
-  height: 70%;
+  height: 50%;
+
+
+  
 
 }
 .card h4 {
