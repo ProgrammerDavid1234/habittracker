@@ -127,16 +127,28 @@
   font-weight: bold;
   font-size: 20px;
 }
-
+.the-card{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
 .cards {
   display: flex;
   gap: 10px;
+}
+.card2{
+  background-color: #f085a9;
+  padding: 15px;
+  border-radius: 10px;
+  height: 15%;
 }
 .card1{
   flex: 1;
   background-color: #499ecf;
   padding: 20px;
   border-radius: 10px;
+  height: 70%;
+
 }
 .card h4 {
   margin-bottom: 0.6rem; /* Adjust the margin for closer spacing */
@@ -196,7 +208,8 @@
 .medium{
   background-color: #e7ba7f;
   border-radius: 60px;
-  width: 50%;
+  width: 60%;
+  margin-top: 30px;
 font-weight: lighter;
   text-align: center;
 }
@@ -228,4 +241,20 @@ font-weight: lighter;
   background-color: transparent;
   border: none;
   font-size: 16px;
+}
+.social-icons {
+  display: flex;
+  justify-content: center; /* Center the icons horizontally */
+  margin-top: 20px; /* Add space above the icons */
+}
+
+.social-icons a {
+  color: #333; /* Default icon color */
+  margin: 0 15px; /* Space between icons */
+  font-size: 24px; /* Icon size */
+  transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+.social-icons a:hover {
+  color: #007bff; /* Change color on hover */
 }

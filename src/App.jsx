@@ -85,24 +85,37 @@ const App = () => {
                 <span className="profile-name">Tiffany Way</span>
               </div>
             </div>
-
           </div>
-
 
           {/* Balance Card */}
-          <div className="card1 balance">
-            <div className="light">
-              <p>light</p>
+          <div className="the-card">
+            <div className="card1 balance">
+              <div className="light">
+                <p>Light</p>
+              </div>
+              <h4>Balance</h4>
+              <p>9:00 - 10:00</p>
+              <p>Location: Studio</p>
             </div>
-            <h4>Balance</h4>
-            <p>9:00 - 10:00</p>
-            <p>Location: Studio</p>
-            <img
-              src="https://via.placeholder.com/100"
-              alt="Balance"
-            />
+
+            {/* New Card Under Balance */}
+            <div className="card2 new-card">
+              <div class="social-icons">
+                <a href="https://www.youtube.com" target="_blank">
+                  <i class="fab fa-youtube"></i>
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://www.facebook.com" target="_blank">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </div>
+            </div>
           </div>
+
         </div>
+
       </section>
 
       {/* Bottom Navigation */}
