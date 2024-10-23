@@ -101,21 +101,39 @@ const App = () => {
             {/* New Card Under Balance */}
             <div className="card2 new-card">
               <div className="border-layer">
-                <div className="social-icons">
-                  <a href="https://www.youtube.com" target="_blank">
-                    <i style={{ color: 'pink' }} className="fab fa-youtube"></i>
+                {/* <div className="social-icons">
+                  <a href="https://www.youtube.com" style={{
+                    border: '3px solid pink',
+                    borderRadius: '60px'
+                  }} target="_blank">
+                    <i style={{
+                      color: 'pink', border: '3px solid pink',
+                      borderRadius: '60px',
+                      padding: '5px',
+                    }} className="fab fa-youtube"></i>
                   </a>
-                  <a href="https://twitter.com" target="_blank">
-                    <i style={{ color: 'pink' }} className="fab fa-twitter"></i>
+                  <a href="https://twitter.com" style={{
+                    border: '3px solid pink',
+                    borderRadius: '60px'
+                  }} target="_blank">
+                    <i style={{
+                      color: 'pink', border: '3px solid pink',
+                      borderRadius: '60px',
+                      padding: '5px',
+                    }} className="fab fa-twitter"></i>
                   </a>
-                  <a href="https://www.facebook.com" target="_blank">
+                  <a href="https://www.facebook.com" style={{
+                    border: '3px solid pink',
+                    borderRadius: '60px'
+                  }} target="_blank">
                     <i style={{
                       color: 'pink',
                       border: '3px solid pink',
                       borderRadius: '60px',
-padding: '5px',     }} className="fab fa-facebook-f"></i>
+                      padding: '5px',
+                    }} className="fab fa-facebook-f"></i>
                   </a>
-                </div>
+                </div> */}
               </div>
             </div>
 
@@ -126,11 +144,17 @@ padding: '5px',     }} className="fab fa-facebook-f"></i>
       </section>
 
       {/* Bottom Navigation */}
-      {/* <nav className="bottom-nav">
-        <button>Home</button>
-        <button>Schedule</button>
-        <button>Profile</button>
-      </nav> */}
+      <nav className="bottom-nav">
+        <button className="active">
+          <i className="fas fa-home"></i> {/* Home icon */}
+        </button>
+        <button>
+          <i className="fas fa-calendar-alt"></i> {/* Schedule icon */}
+        </button>
+        <button>
+          <i className="fas fa-user"></i> {/* Profile icon */}
+        </button>
+      </nav>
     </div>
   );
 };

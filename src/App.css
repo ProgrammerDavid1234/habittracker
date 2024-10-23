@@ -147,7 +147,7 @@
   background-color: #499ecf;
   padding: 20px;
   border-radius: 10px;
-  height: 50%;
+  height: 0%;
 
 
   
@@ -205,9 +205,11 @@
   flex: 1;
   background-color: #ff961f;
   padding: 15px;
-  width: 100%;
+  width: 190%; /* Increase width */
+  max-width: 1000px; /* Optional: set a maximum width */
   border-radius: 10px;
 }
+
 .medium{
   background-color: #e7ba7f;
   border-radius: 60px;
@@ -231,20 +233,36 @@ font-weight: lighter;
 .bottom-nav {
   display: flex;
   justify-content: space-around;
-  padding: 10px 0;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
+  padding: 20px 13px; /* Added vertical and horizontal padding */
+  position: relative; /* Change from fixed to relative positioning */
+  bottom: 0; /* This can be removed since position is now relative */
+  width: calc(100% - 60px); /* Adjust width to account for padding (20px left and right) */
   background-color: #141313;
+  border-radius: 60px; /* Add border-radius to the container */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Optional: add a shadow for depth */
+  margin: 10px 25px; /* Add top and bottom margin for space around the container */
 }
 
 .bottom-nav button {
   flex: 1;
-  padding: 10px;
   background-color: transparent;
   border: none;
-  font-size: 16px;
+  font-size: 24px; /* Adjust the icon size */
+  color: #fff; /* Icon color */
+  border-radius: 10px; /* Optional: round button corners */
+  transition: background-color 0.3s; /* Smooth transition for background color */
 }
+
+/* Style for active button */
+.bottom-nav button.active {
+  background-color: #fff; /* White background for active button */
+  color: #141313; /* Change icon color for active state */
+  border-radius: 50px; /* Set a high value for a pill shape */
+  padding: 10px 20px; /* Adjust padding for a better shape */
+  transition: all 0.3s; /* Optional: smooth transition for any changes */
+}
+
+
 .social-icons {
   display: flex;
   justify-content: center; /* Center the icons horizontally */
