@@ -68,7 +68,7 @@
 .daily-challenge {
   background-color: #a769b9; /* Set the blue background color */
   border-radius: 10px;
-  padding: 50px;
+  padding: 30px;
   padding-left: -20px;
   margin-top: 20px;
 }
@@ -139,14 +139,14 @@
 .card2{
   background-color: #f085a9;
   padding: 10px;
-  border-radius: 10px;
+  border-radius: 20px;
   height: 15%;
 }
 .card1{
   flex: 1;
   background-color: #499ecf;
   padding: 20px;
-  border-radius: 10px;
+  border-radius: 30px;
   height: 0%;
 
 
@@ -207,7 +207,7 @@
   padding: 15px;
   width: 190%; /* Increase width */
   max-width: 1000px; /* Optional: set a maximum width */
-  border-radius: 10px;
+  border-radius: 30px;
 }
 
 .medium{
